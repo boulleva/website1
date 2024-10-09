@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1><marquee>el areaanime</marquee></h1>
+    <h2>Area Anime</h2>
+    <h3>Informasi seputar dunia Jepang dan Anime</h3>
+
+    <p>
+      Silahkan tekan logo untuk menuju instagram
+      <a href="https://www.instagram.com/areaanime.id/">
+        <img src="AREAANIME_logo.png" alt="image" height="50" width="50" />
+      </a>
+    </p>
+
+    <form>
+      <fieldset>
+        <legend>Login Akun</legend>
+        <p>
+          <label>Username:</label>
+          <input type="text" name="name" placeholder="Username." />
+        </p>
+        <p>
+          <label>Email:</label>
+          <input type="text" name="name" placeholder="Email" />
+        </p>
+        <p>
+          <label>Password:</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Isi Password..."
+          />
+        </p>
+        <p>
+          <label>Jenis Kelamin:</label>
+          <select name="jk">
+            <option value="Laki Laki">Laki Laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+        </p>
+
+        <p>Kewarganegaraan:</p>
+        <p>
+          <input type="radio" name="jurusan" value="USA" /> USA
+          <input type="radio" name="jurusan" value="Jepang" checked="checked" />
+          Jepang
+        </p>
+
+        <p>Kebutuhan Penerbangan:</p>
+        <p>
+          <input
+            type="checkbox"
+            name="VIP PASS"
+            value="VIP PASS"
+            checked="checked"
+          />
+          VIP
+          <input
+            type="checkbox"
+            name="2 Times Charge"
+            value="2 Times Charge"
+            checked="checked"
+          />
+          2 Times Charge
+          <button type="submit">Submit</button>
+        </p>
+        <p></p>
+      </fieldset>
+    </form>
+
+    <p class="warning">WARNING!! Informasi seputar apapun yang kalian tau</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Nama</th>
+          <th>Jenis Kelamin</th>
+          <th>Jurusan</th>
+          <th>Kebutuhan Penerbangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Noufal Zaidaan</td>
+          <td>Laki Laki</td>
+          <td>USA</td>
+          <td>VIP, 2 Times Charge</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Athena</td>
+          <td>Perempuan</td>
+          <td>Jepang</td>
+          <td>VIP</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
