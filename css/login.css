@@ -1,3 +1,4 @@
+/* CSS Umum */
 body {
   font-family: Arial, sans-serif;
   background-color: #d3d3d3;
@@ -14,7 +15,7 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 400px; /* Mengatur lebar container */
+  width: 400px;
 }
 
 h2 {
@@ -55,10 +56,18 @@ button {
   font-weight: bold;
   font-size: 16px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Atur jarak antar tombol */
 }
 
 button:hover {
+  background-color: #45a049;
+}
+
+.home-button {
+  background-color: #12c648;
+}
+
+.home-button:hover {
   background-color: #45a049;
 }
 
@@ -74,24 +83,4 @@ p a {
 
 p a:hover {
   text-decoration: underline;
-}
-.back-button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.back-button-container button {
-  padding: 10px 20px;
-  background-color: #f44336; /* Warna merah untuk tombol kembali */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.back-button-container button:hover {
-  background-color: #d32f2f; /* Warna lebih gelap saat di-hover */
 }

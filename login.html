@@ -16,13 +16,19 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required />
 
-        <a href="indexjs.html"><button type="submit">Login</button></a>
+        <button type="submit">Login</button>
+
+        <button
+          type="button"
+          class="home-button"
+          onclick="window.location.href='userdashboard.html'"
+        >
+          Beranda
+        </button>
       </form>
       <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
     </div>
+
     <script src="script.js"></script>
-    <div class="backbutton">
-      <button onclick="window.location.href='indexjs.html'">Beranda</button>
-    </div>
   </body>
 </html>
